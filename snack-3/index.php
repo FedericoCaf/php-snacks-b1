@@ -1,6 +1,37 @@
 <?php
 
 
+$posts = [
+
+  
+  '01-01-2021' => [
+                    'post1',
+                    'post2',
+                    'post3',
+                  ],
+  '07-01-2021' => [
+                    'post1',
+                    'post2',
+                    'post3',
+                  ],
+  
+  '14-01-2021' => [
+                    'post1',
+                    'post2',
+                    'post3',
+                  ],
+  '21-01-2021' => [
+                    'post1',
+                    'post2',
+                    'post3',
+                  ],
+  '28-01-2021' => [
+                    'post1',
+                    'post2',
+                    'post3',
+                  ],
+  
+];
 
 
 ?>
@@ -15,6 +46,14 @@
   <title>Snack 3</title>
 </head>
 <body>
+
+
+<?php
+ 
+ var_dump($posts);
+
+?>
+
   
 </body>
 </html>
